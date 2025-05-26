@@ -247,3 +247,54 @@ Children:
       Value: "/Objects/test_library_reference_breaks_the_project@BrowseName"
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
+- Name: Panel1
+  Id: g=bc8022d813e8e58366cda4651d28e9a3
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: MyAlarmAlias
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/test_library_reference_breaks_the_project/Alarms/MyDigitalAlarm"
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{MyAlarmAlias}/Variable1"
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3ff244b067e73c6d0e928d45b4c6a9c9",
+       "objectGuid": "f54c4f25ca410686330bc6bf44314009",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
