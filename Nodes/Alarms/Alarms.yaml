@@ -1,0 +1,457 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: MyDigitalAlarm
+  Id: g=d6a8d350d3011dec69e7af4b37c07185
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=75233ac685d565c8c93ffdf38198cc63
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=029b4ff9ff8c2ea307f62a5e66c60489
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=df91e2d8da9a1b48b13413e348aae0c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=22d2acbee7ae86253b5b226546d8272a
+  - Name: Variable1
+    Id: g=eff619551822d61865215e082f3490d3
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=faa942bc686c85c8b678007305dd5542
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=ecf11471079a51d0c11f0eea9502be73
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=d00084b4cb91652e51958e6bbe1ed1cb
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=76f6e4ae0342ff7f778727685bff9c1a
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=f6ee971f06466935452cd6c47fbcf035
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyDigitalAlarm1
+  Id: g=250fcc41c796dcf271f5e0b526105ad9
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=4116423a67ca39838d27472069a2e38d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=821263a22684ce646730c11630f330d4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=fac0b9ae318349df28d8ae1eec390e61
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Variable1
+    Id: g=881641ed3fc4e595e5e13582857d7f71
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=adae84d142e4719a412a5b0ecffc6228
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=59ab272a69a44b56940cb66116b69489
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=f213ef3e165eaf5e802af114866834b5
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=b65621d3d0f045c897624b1f7d7e8e7c
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=45f0939d72462abc1831bbb460079a24
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyDigitalAlarm2
+  Id: g=6eccf1e84ed67feae824b45e43b636ad
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=1ecae44ec08797674d2a494291dc7a78
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1d29ae1a5010088f3947373d0fc6ad0f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3cbd5c004090f47b4e552ee80ce1e7e5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Variable1
+    Id: g=40b19f72813e86d5116d9423c153b6c9
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=95bb5e9fb807edfe8dee5f652f04baf8
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=9ae2c31d12dcf8e0e61aae0ace404aa1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=32bb84e76b3f1d220eb4faa188736475
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=a428d168b56459fb1934aa704fc960cc
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=6adad4902b37c9dd941fea1a48cb36cd
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyDigitalAlarm3
+  Id: g=21a9a0b1b413f8e35b6d5b32fffc110c
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=004fbf50122491f959d29915d320a54e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7ab3125cab9806db1debed633c4d62ee
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6f88a680d556a9a2869e145fe06a30b5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Variable1
+    Id: g=e838504c3443f9b67b1857a86807f3ec
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=f2db32d6f5706fc48b7f36a8ca774cd1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=b757a1339b03e9bb00e9608c1ca026b2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=fd435f77ff47b8ca5cad88230125208d
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=60c0a1bdfc9b8308e7262042a0cf2c9a
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=1969e83addce6b8160fef158fa700034
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyDigitalAlarm4
+  Id: g=5e0ef788851ff0acd70952343ec37cc9
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=0c748c3c9a1106e07fc25e340305dddb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ef94b8f90f36af4ad6ab4e882861db81
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6154517bb9007907d904766facee221d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Variable1
+    Id: g=09ebc2905f98029e914b8d4298d38bd2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=e5d933f66aa0de568a7d195f08d944fc
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=a5916d8e5c0cd3ae795a4f8f4e724946
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=a459ebbcac9409d5862da7dbcdea0c3f
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=fa4d41e533113a01407669b3f0e2b9d3
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=ec955834bfbb3eb017ba8cb7342b86ec
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyDigitalAlarm5
+  Id: g=64824e5a27c81d9a731943fb9c138ae5
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=8;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=154
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=494b7558ef6bc18d820453d6f1694cb6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=280530a2ed548271035acf4c0cfa3cde
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=94e8767b5fc2a43f14b3a3ea6a023e04
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Variable1
+    Id: g=b5fe57def91a757274e24d602af8ab2b
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=5dff79c45f61d2ec6bb99c9a03cfb1c9
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable3
+    Id: g=d321ec760d52fc7d40b39eaf71084c49
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable4
+    Id: g=f8f95c52baccec07b1b01711e0a2abb4
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable5
+    Id: g=9eb35027077df2032ffeb21d14b5d7d6
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable6
+    Id: g=782b417136f92517d6a8d62d59cd5345
+    Type: BaseDataVariableType
+    DataType: Int32
